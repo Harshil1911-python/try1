@@ -281,7 +281,7 @@
   <!-- Top bar with logo -->
   <header class="topbar">
     <div class="logo-area">
-      <img src="/logo.png" alt="TechSerenia" class="logo" onerror="this.style.display='none'" />
+      <img src="/logo.png" alt="TechSerenia" class="logo" onerror={(e) => e.currentTarget.style.display = 'none'} />
       <div class="brand">
         <span class="brand-name">TechSerenia</span>
         <span class="brand-sub">POS</span>
