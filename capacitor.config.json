@@ -1,0 +1,8 @@
+{
+  "appId": "com.techserenia.pos",
+  "appName": "TechSerenia POS",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}
